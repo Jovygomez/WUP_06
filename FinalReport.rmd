@@ -51,6 +51,9 @@ so we will use the helper file Categorical~Categorical
 
 ### Graphical Descriptive Results
 
+<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
+
+
 ```{r}
 barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata,, type="percent")
@@ -58,9 +61,6 @@ barchartGC(~race + cappun,data=mydata,, type="percent")
 ```
 
 The barchart shows that on average that more white people tend to be in favor of capital punishment, black people tend to not favor capital punishment, and other races tend to favor capital punishment. Other races on the other hand are also generally in favor.
-
-
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 
 
@@ -79,7 +79,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The numerical result
+The numerical results show that 65.10% of white people support capitol punishment, which is a higher percentage than the other two categories. While in black people more people are opposed to capital. 
 
 ## Now with More data
 
